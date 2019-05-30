@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.septian.tubes.futsalan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.septian.tubes.futsalan.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.septian.tubes.futsalan.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.septian.tubes.futsalan.Choose">
+        </activity>
+        <activity android:name="com.septian.tubes.futsalan.MainActivity" />
+        <activity android:name="com.septian.tubes.futsalan.Score" />
+        <activity android:name="com.septian.tubes.futsalan.Hasil" />
+        <activity android:name="com.septian.tubes.futsalan.Golden" />
+        <activity android:name="com.septian.tubes.futsalan.ScoreFutsal" />
+        <activity android:name="com.septian.tubes.futsalan.Jakal7" />
+        <activity android:name="com.septian.tubes.futsalan.Djuragan" />
+        <activity android:name="com.septian.tubes.futsalan.Planet" />
+        <activity android:name="com.septian.tubes.futsalan.Kedai" />
+        <activity android:name="com.septian.tubes.futsalan.Arena" />
+        <activity android:name="com.septian.tubes.futsalan.Soccer" />
+        <activity android:name="com.septian.tubes.futsalan.Centro"></activity>
+    </application>
+
+</manifest>
